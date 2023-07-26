@@ -31,7 +31,7 @@ public class ProductView {
             System.out.println("2) Ajouter un produit");
             System.out.println("3) Mettre à jour un produit");
             System.out.println("4) Supprimer un produit");
-            System.out.println("5) Quitter");
+            System.out.println("5) Retour");
             choice = Scan.getInt();
 
             switch (choice) {

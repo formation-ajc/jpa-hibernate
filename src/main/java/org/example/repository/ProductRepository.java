@@ -6,7 +6,7 @@ import jakarta.persistence.EntityTransaction;
 import jakarta.persistence.TypedQuery;
 import org.example.entity.Product;
 import org.example.entity.Supplier;
-import org.example.entity.Product;
+import org.example.repository.base.EntityRepository;
 
 import java.util.List;
 

@@ -2,6 +2,7 @@ package org.example.repository;
 
 import jakarta.persistence.*;
 import org.example.entity.User;
+import org.example.repository.base.EntityRepository;
 
 public class UserRepository extends EntityRepository<User, Integer> {
 
